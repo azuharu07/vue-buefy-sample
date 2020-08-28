@@ -1,0 +1,13 @@
+@import "~bulma/sass/elements/table.sass";
+
+.table-wrapper {
+    &.has-mobile-cards {
+        tr {
+            background: $table-background-color !important;
+        }
+
+        .table {
+            background-color: transparent;
+        }
+    }
+}
